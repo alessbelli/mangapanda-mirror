@@ -1,4 +1,4 @@
 Flask
 gunicorn
 bs4
-
+requests

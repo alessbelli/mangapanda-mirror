@@ -5,3 +5,4 @@ requests
 sqlalchemy
 flask-sqlalchemy
 flask-script
+flask-migrate

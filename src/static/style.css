@@ -3,10 +3,16 @@ html, body {
     width: auto;
     margin: 0;
 }
+body {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 0;
+}
 img {
-    max-width: 100%;
-    height:100%;
-    position:absolute;
+    max-width: 95%;
+    max-height:100%;
+
 }
 .nav-overlay {
     display:inline-block;
@@ -27,4 +33,26 @@ img {
 }
 .left {
     float:left;
+}
+i {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.right-arrow {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.left-arrow {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
 }

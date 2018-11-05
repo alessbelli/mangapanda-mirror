@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
     </head>
     <body>
-        <div class="image" style="background-image: url({{ current_image_url }});">
+        <img src="{{ current_image_url }}" />
+        <div class= "nav-overlay">
             <div class="nav" title="Previous Image" onclick="window.location.href='{{ previous_page }}';"></div>
             <div class="nav" title="Next Image" onclick="window.location.href='{{ next_page }}';"></div>
         </div>

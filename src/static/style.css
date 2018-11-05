@@ -1,14 +1,18 @@
-html, body{
+html, body {
     height: 100%;
     width: auto;
     margin: 0;
 }
-.image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:98%; width:100%;
-    display: flex;
+img {
+    max-width: 100%;
+    height:100%;
+    position:absolute;
+}
+.nav-overlay {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    position: absolute
 }
 .nav {
     width: 50%;

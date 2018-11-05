@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+    <title>Latest One Piece chapters!</title>
+    <body>
+    <h1>Latest One Piece chapters, from <a href="https://mangapanda.com">Mangapanda</a></h1>
+        <ul>
+            {% for item in display_links %}<li><a href="{{ item.link }}">{{ item.label }}</a></li>{% endfor %}
+        </ul>
+    </body>
+</html>

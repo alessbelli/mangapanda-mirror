@@ -2,3 +2,5 @@ Flask
 gunicorn
 bs4
 requests
+sqlalchemy
+flask-sqlalchemy

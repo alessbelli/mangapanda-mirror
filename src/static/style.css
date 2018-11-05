@@ -1,0 +1,20 @@
+body {
+    height:100vh;
+    width: 99%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+.image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:98%; width:100%;
+    display: flex;
+}
+.nav {
+    width: 50%;
+    height: 100%;
+}
+.nav:hover {
+    cursor: pointer;
+}

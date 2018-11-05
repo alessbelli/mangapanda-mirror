@@ -5,10 +5,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
     </head>
     <body>
-        <p><a href="{{ previous_page }}">Previous page<i class="left-arrow"></i></a></p>
-        <img src="{{ current_image_url }}" />
-        <p><a href="{{ next_page }}"><span>Next page</span><i class="right-arrow"></i></a></p>
-
+        <p><a href="{{ previous_page }}">Previous page</a> - <a href="{{ next_page }}">Next page</a></p>
+        <a href="{{ next_page }}"><img src="{{ current_image_url }}" /></a>
         <div class= "nav-overlay">
             <div class="nav left" title="Previous Image" onclick="window.location.href='{{ previous_page }}';"></div>
             <div class="nav right" title="Next Image" onclick="window.location.href='{{ next_page }}';"></div>

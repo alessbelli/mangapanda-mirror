@@ -9,7 +9,7 @@ img {
     position:absolute;
 }
 .nav-overlay {
-    display:flex;
+    display:inline-block;
     height: 100%;
     width: 100%;
     position: absolute
@@ -20,4 +20,11 @@ img {
 }
 .nav:hover {
     cursor: pointer;
+}
+
+.right {
+    float:right;
+}
+.left {
+    float:left;
 }
